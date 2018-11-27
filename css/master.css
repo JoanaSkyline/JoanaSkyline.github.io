@@ -7,22 +7,23 @@
 
 html
 {
-	background-color: #99E1D9; /* Background colour for the whole page. */
+	background-color: #312f45; /* Background colour for the whole page. */
 }
 
 body
 {
 	font-family: 'PT Sans'; /* Font */
-	color: #FFFAE3; /* Text colour. */
-	font-size: 26px;
+	font-weight: 600;
+	color: #4d597d; /* Text colour. */
+	font-size: 20px;
 	text-align: center;
-	max-width: 1600px;
+	max-width: 1200px;
 	margin: auto;
 }
 
 footer
 {
-	color: #F7567C;
+	color: #7bc7b8;
 	text-align: left;
 	margin-left: 10px;
 	position: sticky;
@@ -31,13 +32,14 @@ footer
 
 section
 {
+	padding: 10px;
 	margin: 10px;
-	background-color: #5D576B;
+	background-color: #fff8cf; /* Text Box color. */
 }
 
 h1
 {
-	color: #ffcc68;
+	color: #7bc7b8;
 	font-weight: normal;
 	font-size: 48px;
 	margin: 0;
@@ -54,15 +56,20 @@ a
 	text-decoration: none;
 }
 
-a:link { color: #55a894; }
-a:visited { color: #55a894; }
-a:hover { color: #8bd0ba; }
-a:active { color: #55a894; }
+a:link { color: #d44e52; }
+a:visited { color: #d44e52; }
+a:hover { color: #d44e52; }
+a:active { color: #d44e52; }
 
 .centered {
 	text-align: center;
 }
 
 .name {
-	font-size: 48px;
+	font-size: 32px;
+}
+
+img {
+	width: 100%;
+	height: 293px;
 }
