@@ -90,13 +90,12 @@ img {
 }
 
 th {
-	width: 293px;
+	width: 33.3333%;
 	height: 293px;
 	border: 4px solid #7bc7b8;
 	background-color: #312f45;
 }
 
-.pictures {
-	text-align: center;
-	text-align: -webkit-center;
+.pictures, table {
+	width: 100%;
 }
